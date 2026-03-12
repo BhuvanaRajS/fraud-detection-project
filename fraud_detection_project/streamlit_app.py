@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_csv("bank_transactions_data_2.csv")
+data = pd.read_csv("fraud_detection_project/bank_transactions_data_2.csv")
 
 # Fraud label generation
 np.random.seed(42)
